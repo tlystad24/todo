@@ -1,1 +1,1 @@
-todoJS
+Simple todolist in jQuery
