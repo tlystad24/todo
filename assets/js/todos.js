@@ -1,7 +1,6 @@
 // Check off todos when clicking
 $("ul").on("click", "li", function(){
 	$(this).toggleClass("completed");
-	
 });
 
 // delete todo when x is clocked
@@ -21,4 +20,8 @@ $("input[type='text']").keypress(function(event){
 		// create new li and add input
 		$("ul").append("<li><span><i class='fa fa-trash'></i></span>" + todoInput + "</li>");
 	}
+});
+
+$(".fa-plus").click(function(){
+	$("input[type='text']").fadeToggle();
 });
