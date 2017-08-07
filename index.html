@@ -2,21 +2,29 @@
 <html>
 <head>
 	<title>To-Do List</title>
+	<!-- Load stylesheet -->
 	<link rel="stylesheet" type="text/css" href="assets/css/todos.css">
+	<!-- Load 'Montserrat' google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+	<!-- Load Font Awesome CND -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Include jQuery -->
 	<script type="text/javascript" src="assets/js/lib/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 	<div id="container">
-		<h1>To-Do List</h1>
-		<input type="text">
+		<div class="header">
+			<h1>To-Do List <i class="fa fa-plus"></i></h1>
+		</div>
+		<input type="text" placeholder="Add new To-do">
 		<ul>
-			<li><span>X </span>Create html boilerplate</li>
-			<li><span>X </span>Import jQuery</li>
-			<li><span>X </span>Stylesheet</li>
+			<li><span><i class="fa fa-trash"></i></span>Create html boilerplate</li>
+			<li><span><i class="fa fa-trash"></i></span>Import jQuery</li>
+			<li><span><i class="fa fa-trash"></i></span>Stylesheet</li>
 		</ul>
 	</div>
 
-
+<!-- Include todo js -->
 <script type="text/javascript" src="assets/js/todos.js"></script>
 </body>
 </html>
