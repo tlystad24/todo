@@ -87,6 +87,7 @@ input:focus
 .fa-plus
 {
     float: right;
+    padding-top: 3.5px;
 }
 
 ul
