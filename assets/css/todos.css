@@ -1,3 +1,15 @@
 body {
-	background-color: purple;
+	/*background-color: purple;*/
+	font-family: lato;
+}
+
+#container {
+	border: 2px solid gray;
+	width: 360px;
+	margin: 0 auto;
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
 }
