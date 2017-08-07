@@ -107,7 +107,15 @@ ul
     margin: 100px auto;
 
     background-color: #f7f7f7;
-    box-shadow: 0 0 3px rgba(0,0,0,.1);
+	-moz-box-shadow: 9px 10px 71px -5px rgba(0,0,0,0.21);
+	box-shadow: 9px 10px 71px -5px rgba(0,0,0,0.21);
+	transition:.3s;
+}
+
+#container:hover{
+	background-color: #f7f7f7;
+	-moz-box-shadow: 9px 10px 71px -5px rgba(0,0,0,0.41);
+	box-shadow: 9px 10px 71px -5px rgba(0,0,0,0.41);
 }
 
 .completed
